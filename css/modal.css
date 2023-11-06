@@ -1,0 +1,63 @@
+.modal-container{
+    width: 100vw;
+    height: 100vw;
+    background: rgba(0, 0, 0, .5); /*Cor de fundo que deixa o preto transparente*/
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    display: none; /*Declara se vai aparecer na tela*/
+}
+
+.modal{
+	width: 700px;
+	height: 180px;
+	padding: 10px 20px;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px 2px rgb(230, 227, 227);
+	position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.modal-content > p{
+	font-size: 15px;
+}
+
+.title-modal{
+	font-size: 25px;
+	font-weight: 300px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarel, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn-red{
+    cursor: pointer;
+	text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: 5px 12px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    background-color: #F44336;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.btn-cancelar{
+    background-color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.btn-red:hover{
+	background-color: #d41c00;
+}
+.modal-footer{
+    display: inline-block;
+    float: right;
+}

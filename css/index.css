@@ -1,0 +1,74 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    color: rgba(0,0,0,0.87);
+    font-size: 20px;
+    border-spacing: 0; /*Retira o espaçamento da borda, e torna tudo uma linha só*/
+}
+
+tr{
+    background-color: rgba(242,242,242,0.5);
+}
+
+th{
+    padding: 5px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    min-width: 100px;
+    text-align: left;
+    background-color: #fff;
+
+}
+
+td{
+    padding-left: 0px;
+    border-collapse: collapse;
+    font-size: 15px;
+    padding: 15px 10px 15px 10px;
+}
+
+a{
+    padding: 0px;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: #fff; /*Transforma a tabela em zebrada*/
+}
+
+.img, .img-del, .btn-adicionar{
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+
+}
+
+.img{ /*Formata o tamanho das imagens*/
+  background-color: orange;
+  width: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.img-del{
+    background-color: red;
+    width: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.btn-adicionar{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #26a69a;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.btn-adicionar:hover{
+    background-color: #53c9bd;
+}

@@ -1,0 +1,302 @@
+/*(Conteudo global) Main.css*/
+
+:root{ /*Color palette*/
+    --primary: #26a69a;
+    --primary-clear: #53c9bd;
+    --table-gray: #435055;
+    --table-gray-clear: #9e9e9e;
+    --secondary: #4CAF50;
+    --secondary-clear:#60c763;
+    --white: #fff; 
+    --black: #000;
+    --vermelho: red;
+}
+
+body{ /*Fonte do projeto original*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarel, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title{ /*Titulo principal/padrão*/
+    font-size: 45px;
+    font-weight: 300; /*Peso que deixa a fonte fina*/ 
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+/*Pagina pricipal (index.css)*/
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    color: rgba(0,0,0,0.87);
+    font-size: 20px;
+    border-spacing: 0; /*Retira o espaçamento da borda, e torna tudo uma linha só*/
+}
+
+tr{
+    background-color: rgba(242,242,242,0.5);
+}
+
+th{
+    padding: 5px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    min-width: 100px;
+    text-align: left;
+    background-color: #fff;
+
+}
+
+td{
+    padding-left: 0px;
+    border-collapse: collapse;
+    font-size: 15px;
+    padding: 15px 10px 15px 10px;
+}
+
+a{
+    padding: 0px;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: #fff; /*Transforma a tabela em zebrada*/
+}
+
+.img, .img-del, .btn-adicionar{
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+
+}
+
+.img{ /*Formata o tamanho das imagens*/
+  background-color: orange;
+  width: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.img-del{
+    background-color: red;
+    width: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.btn-adicionar{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #26a69a;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.btn-adicionar:hover{
+    background-color: #53c9bd;
+}
+
+/*Inputs de cadrasto (editar.css)*/
+
+.form{ /*Usado position absolute em vez de display grid*/
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    padding: 15px;
+    width: 50%;
+}
+
+.title{
+    padding-top: 0px;
+}
+
+.input{ 
+    width: 600px;
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.input:nth-last-child(3){
+    padding-bottom: 25px;
+}
+
+.input-form{ /*Estilização do input*/
+    background: none; /*Deixa o fundo transparente*/
+    padding-bottom: 16px; /*Espaço entre o texto e a linha*/
+    border: none; /*Sem borda*/
+    border-bottom: 1px solid #9e9e9e; /*Cria linha a baixo*/
+    outline: none; /*Sem borda ao clicar no input*/
+    font-size: 14px;
+    width: 100%;
+    letter-spacing: 2px; /*Espaçamento das letras*/
+}
+
+.label{
+    position: absolute; /*Importante para a animação*/
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    padding-left: 20px;
+    transition: .5s;
+    color: #9e9e9e;
+
+}
+
+.input-form:focus ~ .label, /*Quando o foco for o input, executa a animção*/
+.input-form:valid ~ .label /*E quando estiver preenchido com algo, mantem animação*/{
+    top: -20px;
+    font-size: 12px;
+}
+
+.btn-cadastrar, .btn-lista{
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+
+}
+
+.btn-cadastrar{
+    text-transform: uppercase;
+    color: #fff;
+    width: 130px;
+    height: 35px;
+    font-size: 13px;
+    background-color: #26a69a;
+    border: none;
+    border-radius: 3px;
+    margin-right: 2px;
+
+}
+
+.btn-cadastrar:hover{
+    background-color: #53c9bd;
+}
+
+.btn-lista{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 22px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+   
+}
+
+.btn-lista:hover{
+    background-color: #60c763;
+}
+
+/*Pop up modal (modal.css)*/
+
+.modal-container{
+    width: 100vw;
+    height: 100vw;
+    background: rgba(0, 0, 0, .5); /*Cor de fundo que deixa o preto transparente*/
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    display: none; /*Declara se vai aparecer na tela*/
+    /*Animação do modal*/
+    animation: animate;
+    animation-duration: 800ms;
+}
+
+@keyframes animate{
+
+    from{opacity: 1s;}
+    from{opacity: 0s;}
+}
+
+.modal{
+    width: 670px;
+    height: 170px;
+    padding: 15px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    border-radius: 2px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.modal-content > p{
+    font-size: 15px;
+}
+
+.title-modal{
+    font-size: 36.5px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarel, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;   
+    margin: 0px;
+}
+
+.btn-red{
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 8px 12px 5px 12px;
+    padding-bottom: 7px;
+    font-size: 14px;
+    background-color: #F44336;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.btn-cancelar{
+    background-color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.btn-red:hover{
+    background-color: #d41c00;
+}
+.modal-footer{
+    margin-top: 40px;
+    display: inline-block;
+    float: right;
+
+}
+
+/*Animação de adcionado*/
+
+.message{
+  padding: 19px 60px;
+  position: fixed;
+  top: 20px;
+  right: 105px;
+  background-color: black;
+  border-radius: 3px;
+  color: #fff;
+  animation: slidein 0.2s cubic-bezier(0.25, 0.46, 0.45,0.94) both;
+}
+
+@keyframes slidein{
+  0%{
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
