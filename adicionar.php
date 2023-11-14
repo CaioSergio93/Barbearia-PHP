@@ -28,7 +28,7 @@ include_once 'includes/header.php';
 			</div>
 
 			<button type="submit" name="btn-cadastrar" class="btn-cadastrar" onclick="adicionar()">Cadrastar</button>
-			<a href="index.php" class="btn-lista">Lista de clientes</a>
+			<a href="cadastro.php" class="btn-lista">Lista de clientes</a>
 
 		</form>
 	</div>

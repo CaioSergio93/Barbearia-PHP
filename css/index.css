@@ -1,63 +1,89 @@
-.main{
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    background-color: #fffefe;
+    padding: 0.5em;
 }
 
-table{
-    color: rgba(0,0,0,0.87);
+section {
+    padding: 1em;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+input,
+button {
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Table Styles */
+table {
+    color: rgba(0, 0, 0, 0.87);
     font-size: 20px;
-    border-spacing: 0; /*Retira o espaçamento da borda, e torna tudo uma linha só*/
+    border-spacing: 0;
+    width: 100%;
 }
 
-tr{
-    background-color: rgba(242,242,242,0.5);
+tr {
+    background-color: rgba(242, 242, 242, 0.5);
 }
 
-th{
-    padding: 5px;
-    padding-bottom: 15px;
+th,
+td {
+    padding: 15px;
+}
+
+th {
     font-size: 15px;
-    min-width: 100px;
     text-align: left;
     background-color: #fff;
-
 }
 
-td{
-    padding-left: 0px;
-    border-collapse: collapse;
-    font-size: 15px;
-    padding: 15px 10px 15px 10px;
-}
-
-a{
+a {
     padding: 0px;
 }
 
-tbody > tr:nth-child(2n){
-    background-color: #fff; /*Transforma a tabela em zebrada*/
+tbody > tr:nth-child(2n) {
+    background-color: #fff;
 }
 
-.img, .img-del, .btn-adicionar{
+/* Image and Button Styles */
+.img,
+.img-del,
+.btn-adicionar {
     box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
-
-}
-
-.img{ /*Formata o tamanho das imagens*/
-  background-color: orange;
-  width: 20px;
-  padding: 10px;
-  border-radius: 50%;
-}
-
-.img-del{
-    background-color: red;
     width: 20px;
     padding: 10px;
     border-radius: 50%;
 }
 
-.btn-adicionar{
+.img {
+    background-color: orange;
+}
+
+.img-del {
+    background-color: red;
+}
+
+.btn-adicionar {
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
@@ -69,6 +95,6 @@ tbody > tr:nth-child(2n){
     margin-right: 10px;
 }
 
-.btn-adicionar:hover{
+.btn-adicionar:hover {
     background-color: #53c9bd;
 }

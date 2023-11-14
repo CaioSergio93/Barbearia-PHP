@@ -1,15 +1,3 @@
-/*:root{ Color palette
-    --primary: #26a69a;
-    --primary-clear: #53c9bd;
-    --table-gray: #435055;
-    --table-gray-clear: #9e9e9e;
-    --secondary: #4CAF50;
-    --secondary-clear:#60c763;
-    --white: #fff; 
-    --black: #000;
-    --vermelho: red;
-} */
-
 body{ /*Fonte do projeto original*/
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarel, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
