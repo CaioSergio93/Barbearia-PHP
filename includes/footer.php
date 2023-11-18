@@ -1,4 +1,8 @@
-    <script type="text/javascript">
+<footer>
+    <p>&copy; <?php echo date("Y"); ?> Todos os direitos reservados a CaioS Desenvolviment</p>
+</footer>
+
+<script type="text/javascript">
 
         function deletar(){
             let modal = document.querySelector('.modal-container');

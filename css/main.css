@@ -1,11 +1,3 @@
-body{ /*Fonte do projeto original*/
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarel, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.title{ /*Titulo principal/padrão*/
-    font-size: 45px;
-    font-weight: 300; /*Peso que deixa a fonte fina*/ 
-    margin: 0px;
-    padding-top: 10px;
-    padding-bottom: 35px;
+.section-title {
+    text-align: center;
 }

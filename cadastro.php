@@ -7,13 +7,6 @@ include_once 'includes/header.php';
 include_once 'includes/mensagem.php';
 ?>
 
-<nav>
-    <a href="cadastro.php">Cadastro</a>
-    <a href="#agendamento">Agendamento</a>
-    <a href="produtos.php">Produtos</a>
-    <a href="cortes.php">Cortes</a>
-</nav>
-
 <div class="alert"></div>
 
 <div class="main">

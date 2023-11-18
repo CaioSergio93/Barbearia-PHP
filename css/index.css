@@ -5,13 +5,6 @@ body {
     background-color: #f2f2f2;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    background-color: #fffefe;
-    padding: 0.5em;
-}
-
 section {
     padding: 1em;
 }
