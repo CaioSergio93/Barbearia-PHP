@@ -128,3 +128,8 @@ include_once 'includes/header.php';
         </div>
 </section>
 </div>
+
+<?php
+//Footer
+include_once 'includes/footer.php';
+?>

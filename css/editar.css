@@ -1,4 +1,4 @@
-.form{ /*Usado position absolute em vez de display grid*/
+.form{
     position: absolute;
     top: 45%;
     left: 50%;
@@ -23,19 +23,19 @@
     padding-bottom: 25px;
 }
 
-.input-form{ /*Estilização do input*/
-    background: none; /*Deixa o fundo transparente*/
-    padding-bottom: 16px; /*Espaço entre o texto e a linha*/
-    border: none; /*Sem borda*/
-    border-bottom: 1px solid #9e9e9e; /*Cria linha a baixo*/
-    outline: none; /*Sem borda ao clicar no input*/
+.input-form{ 
+    background: none; 
+    padding-bottom: 16px; 
+    border: none; 
+    border-bottom: 1px solid #9e9e9e; 
+    outline: none; 
     font-size: 14px;
     width: 100%;
-    letter-spacing: 2px; /*Espaçamento das letras*/
+    letter-spacing: 2px; 
 }
 
 .label{
-    position: absolute; /*Importante para a animação*/
+    position: absolute; 
     top: 0px;
     left: 0px;
     pointer-events: none;
@@ -45,8 +45,8 @@
 
 }
 
-.input-form:focus ~ .label, /*Quando o foco for o input, executa a animção*/
-.input-form:valid ~ .label /*E quando estiver preenchido com algo, mantem animação*/{
+.input-form:focus ~ .label, 
+.input-form:valid ~ .label /{
     top: -20px;
     font-size: 12px;
 }

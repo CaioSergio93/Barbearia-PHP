@@ -1,6 +1,6 @@
-/*(Conteudo global) Main.css*/
 
-:root{ /*Color palette*/
+
+:root{
     --primary: #26a69a;
     --primary-clear: #53c9bd;
     --table-gray: #435055;
@@ -12,19 +12,17 @@
     --vermelho: red;
 }
 
-body{ /*Fonte do projeto original*/
+body{ 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarel, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.title{ /*Titulo principal/padrão*/
+.title{ 
     font-size: 45px;
-    font-weight: 300; /*Peso que deixa a fonte fina*/ 
+    font-weight: 300; 
     margin: 0px;
     padding-top: 10px;
     padding-bottom: 35px;
 }
-
-/*Pagina pricipal (index.css)*/
 
 .main{
     display: flex;
@@ -34,7 +32,7 @@ body{ /*Fonte do projeto original*/
 table{
     color: rgba(0,0,0,0.87);
     font-size: 20px;
-    border-spacing: 0; /*Retira o espaçamento da borda, e torna tudo uma linha só*/
+    border-spacing: 0;
 }
 
 tr{
@@ -63,7 +61,7 @@ a{
 }
 
 tbody > tr:nth-child(2n){
-    background-color: #fff; /*Transforma a tabela em zebrada*/
+    background-color: #fff;
 }
 
 .img, .img-del, .btn-adicionar{
@@ -71,7 +69,7 @@ tbody > tr:nth-child(2n){
 
 }
 
-.img{ /*Formata o tamanho das imagens*/
+.img{ 
   background-color: orange;
   width: 20px;
   padding: 10px;
@@ -101,9 +99,9 @@ tbody > tr:nth-child(2n){
     background-color: #53c9bd;
 }
 
-/*Inputs de cadrasto (editar.css)*/
 
-.form{ /*Usado position absolute em vez de display grid*/
+
+.form{
     position: absolute;
     top: 45%;
     left: 50%;
@@ -128,20 +126,19 @@ tbody > tr:nth-child(2n){
     padding-bottom: 25px;
 }
 
-.input-form{ /*Estilização do input*/
-    background: none; /*Deixa o fundo transparente*/
-    padding-bottom: 16px; /*Espaço entre o texto e a linha*/
-    border: none; /*Sem borda*/
-    border-bottom: 1px solid #9e9e9e; /*Cria linha a baixo*/
-    outline: none; /*Sem borda ao clicar no input*/
+.input-form{
+    background: none;
+    padding-bottom: 16px; 
+    border: none; 
+    border-bottom: 1px solid #9e9e9e;
+    outline: none; 
     font-size: 14px;
     width: 100%;
-    letter-spacing: 2px; /*Espaçamento das letras*/
+    letter-spacing: 2px; 
 }
 
 .label{
-    position: absolute; /*Importante para a animação*/
-    top: 0px;
+    position: absolute;
     left: 0px;
     pointer-events: none;
     padding-left: 20px;
@@ -150,8 +147,8 @@ tbody > tr:nth-child(2n){
 
 }
 
-.input-form:focus ~ .label, /*Quando o foco for o input, executa a animção*/
-.input-form:valid ~ .label /*E quando estiver preenchido com algo, mantem animação*/{
+.input-form:focus ~ .label, 
+.input-form:valid ~ .label {
     top: -20px;
     font-size: 12px;
 }
@@ -196,18 +193,15 @@ tbody > tr:nth-child(2n){
     background-color: #60c763;
 }
 
-/*Pop up modal (modal.css)*/
-
 .modal-container{
     width: 100vw;
     height: 100vw;
-    background: rgba(0, 0, 0, .5); /*Cor de fundo que deixa o preto transparente*/
+    background: rgba(0, 0, 0, .5); 
     position: fixed;
     top: 0px;
     left: 0px;
 
-    display: none; /*Declara se vai aparecer na tela*/
-    /*Animação do modal*/
+
     animation: animate;
     animation-duration: 800ms;
 }
@@ -276,8 +270,6 @@ tbody > tr:nth-child(2n){
     float: right;
 
 }
-
-/*Animação de adcionado*/
 
 .message{
   padding: 19px 60px;

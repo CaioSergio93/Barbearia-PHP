@@ -58,7 +58,6 @@ tbody > tr:nth-child(2n) {
     background-color: #fff;
 }
 
-/* Image and Button Styles */
 .img,
 .img-del,
 .btn-adicionar {
@@ -91,3 +90,4 @@ tbody > tr:nth-child(2n) {
 .btn-adicionar:hover {
     background-color: #53c9bd;
 }
+

@@ -1,5 +1,4 @@
 <?php
-// Sessão
 session_start();
 if(isset($_SESSION['mensagem'])): ?>
 <script>	

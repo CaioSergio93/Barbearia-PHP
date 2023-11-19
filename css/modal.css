@@ -1,12 +1,12 @@
 .modal-container{
     width: 100vw;
     height: 100vw;
-    background: rgba(0, 0, 0, .5); /*Cor de fundo que deixa o preto transparente*/
+    background: rgba(0, 0, 0, .5);
     position: fixed;
     top: 0px;
     left: 0px;
 
-    display: none; /*Declara se vai aparecer na tela*/
+    display: none;
 }
 
 .modal{

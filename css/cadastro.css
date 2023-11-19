@@ -6,7 +6,7 @@
 table{
     color: rgba(0,0,0,0.87);
     font-size: 20px;
-    border-spacing: 0; /*Retira o espaçamento da borda, e torna tudo uma linha só*/
+    border-spacing: 0;
 }
 
 tr{
@@ -35,7 +35,7 @@ a{
 }
 
 tbody > tr:nth-child(2n){
-    background-color: #fff; /*Transforma a tabela em zebrada*/
+    background-color: #fff; 
 }
 
 .img, .img-del, .btn-adicionar{
@@ -43,7 +43,7 @@ tbody > tr:nth-child(2n){
 
 }
 
-.img{ /*Formata o tamanho das imagens*/
+.img{ 
   background-color: orange;
   width: 20px;
   padding: 10px;
