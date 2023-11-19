@@ -1,0 +1,29 @@
+.nav {
+    padding: 1rem;
+    display: block;
+    text-align: center;
+  }
+  
+  .nav:hover {
+    border-color: yellow;
+  }  
+ 
+  .nav a {
+    text-decoration: none;
+    color: black; 
+    margin: 0 10px; 
+    display: inline-block;
+  }
+  
+  .nav a span {
+    border: 1px solid #333; 
+    border-radius: 8px;
+    padding: 5px; 
+    margin: 0 10px; 
+    transition: background-color 0.3s ease-in-out; 
+  }
+  
+  .nav a:hover span {
+    background-color: lightblue;
+  }
+  

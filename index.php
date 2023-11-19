@@ -97,6 +97,7 @@ include_once 'includes/header.php';
         </section>
 </div>
 
+
 <?php
 //Footer
 include_once 'includes/footer.php';

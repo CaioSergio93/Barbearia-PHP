@@ -12,10 +12,10 @@ include_once 'includes/header.php';
                         <img src="css/img/creme-barbear1.jpg" alt="">
                 </div>
                 <div class="card-title">
-                        <p>Titulo do Produto</p>
+                        <p> Creme de barbear 90g </p>
                 </div>
                 <div>
-                        <p>Descrição do Produto</p>
+                        <p> R$ 20.00 </p>
                 </div>
         </div>
 
@@ -24,10 +24,10 @@ include_once 'includes/header.php';
                         <img src="css/img/creme-barbear2.jpg" alt="">
                 </div>
                 <div class="card-title">
-                        <p>Titulo do Produto</p>
+                        <p> Creme de barbear 150g </p>
                 </div>
                 <div>
-                        <p>Descrição do Produto</p>
+                        <p> R$ 33.00 </p>
                 </div>
         </div>
 
@@ -36,10 +36,10 @@ include_once 'includes/header.php';
                         <img src="css/img/creme-barbear3.jpg" alt="">
                 </div>
                 <div class="card-title">
-                        <p>Titulo do Produto</p>
+                        <p> Creme de barbear 200g </p>
                 </div>
                 <div>
-                        <p>Descrição do Produto</p>
+                        <p> R$ 40.00 </p>
                 </div>
         </div>
 </section>
@@ -54,10 +54,10 @@ include_once 'includes/header.php';
                         <img src="css/img/pos-barba1.jpg" alt="">
                 </div>
                 <div class="card-title">
-                        <p>Titulo do Produto</p>
+                        <p> Pós - Barba 500 ml</p>
                 </div>
                 <div>
-                        <p>Descrição do Produto</p>
+                        <p> R$ 40.00 </p>
                 </div>
         </div>
 
@@ -66,10 +66,10 @@ include_once 'includes/header.php';
                         <img src="css/img/pos-barba2.jpg" alt="">
                 </div>
                 <div class="card-title">
-                        <p>Titulo do Produto</p>
+                        <p> Pós - Barba 750 ml</p>
                 </div>
                 <div>
-                        <p>Descrição do Produto</p>
+                        <p> R$ 40.00 </p>
                 </div>
         </div>
 
@@ -78,10 +78,10 @@ include_once 'includes/header.php';
                         <img src="css/img/pos-barba3.jpg" alt="">
                 </div>
                 <div class="card-title">
-                        <p>Titulo do Produto</p>
+                        <p> Pós - Barba 120 ml</p>
                 </div>
                 <div>
-                        <p>Descrição do Produto</p>
+                        <p> R$ 25.00 </p>
                 </div>
         </div>
 </section>
@@ -96,10 +96,10 @@ include_once 'includes/header.php';
                         <img src="css/img/minoxidil1.jpg" alt="">
                 </div>
                 <div class="card-title">
-                        <p>Titulo do Produto</p>
+                        <p> Minoxidil creme </p>
                 </div>
                 <div>
-                        <p>Descrição do Produto</p>
+                        <p> R$ 28.00 </p>
                 </div>
         </div>
 
@@ -108,10 +108,10 @@ include_once 'includes/header.php';
                         <img src="css/img/minoxidil2.jpg" alt="">
                 </div>
                 <div class="card-title">
-                        <p>Titulo do Produto</p>
+                        <p> Minoxidil spray 120 ml </p>
                 </div>
                 <div>
-                        <p>Descrição do Produto</p>
+                        <p> R$ 33.00 </p>
                 </div>
         </div>
 
@@ -120,10 +120,10 @@ include_once 'includes/header.php';
                         <img src="css/img/minoxidil3.jpg" alt="">
                 </div>
                 <div class="card-title">
-                        <p>Titulo do Produto</p>
+                        <p> Minoxidil spray 200 ml </p>
                 </div>
                 <div>
-                        <p>Descrição do Produto</p>
+                        <p> R$ 38.00</p>
                 </div>
         </div>
 </section>

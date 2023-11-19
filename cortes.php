@@ -57,7 +57,7 @@ include_once 'includes/header.php';
             <p> Moderno </p>
         </div>
         <div>
-            <p> Descrição do corte </p>
+            <p> Moderno ondulado </p>
             <p> R$ 25.00 </p>
         </div>
     </div>
@@ -70,7 +70,7 @@ include_once 'includes/header.php';
             <p> Moderno </p>
         </div>
         <div>
-            <p>Descrição do corte</p>
+            <p> Moderno com franja</p>
             <p> R$ 25.00 </p>
         </div>
     </div>
@@ -83,7 +83,7 @@ include_once 'includes/header.php';
             <p> Moderno </p>
         </div>
         <div>
-            <p>Descrição do corte</p>
+            <p> Moderno espetado</p>
             <p> R$ 25.00 </p>
         </div>
     </div>
@@ -100,7 +100,7 @@ include_once 'includes/header.php';
             <p> Afro black</p>
         </div>
         <div>
-            <p>Descrição do corte</p>
+            <p> Afro rasteiro </p>
             <p> R$ 25.00 </p>
         </div>
     </div>
@@ -113,7 +113,7 @@ include_once 'includes/header.php';
             <p> Black Cacheado </p>
         </div>
         <div>
-            <p>Descrição do corte </p>
+            <p> Cachos longos </p>
             <p> R$ 25.00 </p>
         </div>
     </div>
@@ -126,7 +126,7 @@ include_once 'includes/header.php';
             <p> Dread Afro</p>
         </div>
         <div>
-            <p> Descrição do corte</p>
+            <p> Rasta </p>
             <p> R$ 25.00 </p>
         </div>
     </div>
@@ -143,7 +143,7 @@ include_once 'includes/header.php';
             <p> Degradê </p>
         </div>
         <div>
-            <p> Corte clássico moderno </p>
+            <p> Degradê clássico </p>
             <p> R$ 25.00 </p>
         </div>
     </div>
@@ -156,7 +156,7 @@ include_once 'includes/header.php';
             <p> Degradê </p>
         </div>
         <div>
-            <p>Descrição do corte</p>
+            <p> Degradê com moicano </p>
             <p> R$ 25.00 </p>
         </div>
     </div>
@@ -169,7 +169,7 @@ include_once 'includes/header.php';
             <p> Degradê </p>
         </div>
         <div>
-            <p>Descrição do corte</p>
+            <p> Degradê ondulado </p>
             <p> R$ 25.00 </p>
         </div>
     </div>
@@ -184,10 +184,10 @@ include_once 'includes/header.php';
             <img src="css/img/barba-degrade.jpg" alt="">
         </div>
         <div class="card-title">
-            <p> Barba Degradê</p>
+            <p> Barba Degradê </p>
         </div>
         <div>
-            <p>Descrição do corte</p>
+            <p> Barba Degradê </p>
             <p> R$ 25.00 </p>
         </div>
     </div>
@@ -200,8 +200,8 @@ include_once 'includes/header.php';
             <p> Barba Volumosa</p>
         </div>
         <div>
-            <p>Descrição do corte</p>
-            <p> R$ 25.00 </p>
+            <p> Barba vomulosa com bigode </p>
+            <p> R$ 30.00 </p>
         </div>
     </div>
 
@@ -213,8 +213,8 @@ include_once 'includes/header.php';
             <p> Barba Clássica</p>
         </div>
         <div>
-            <p>Descrição do corte</p>
-            <p> R$ 25.00 </p>
+            <p> Barba fechada com restauração de cor </p>
+            <p> R$ 40.00 </p>
         </div>
     </div>
 
@@ -230,7 +230,7 @@ include_once 'includes/header.php';
             <p> Bigode Moderno </p>
         </div>
         <div>
-            <p>Descrição do corte</p>
+            <p> Bigode Moderno </p>
             <p> R$ 25.00 </p>
         </div>
     </div>
@@ -241,10 +241,10 @@ include_once 'includes/header.php';
         </div>
         <div class="card-title">
             <p> Bigode Clássico </p>
-            <p> R$ 25.00 </p>
         </div>
         <div>
-            <p>Descrição do corte</p>
+            <p> Bigode Clássico </p>
+            <p> R$ 25.00 </p>
         </div>
     </div>
 
