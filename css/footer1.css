@@ -13,13 +13,11 @@ main {
 }
 
 footer {
-    background-color: whitesmoke;
+
     color: black;
     text-align: center;
     padding: 15px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
 }
 
 footer p {

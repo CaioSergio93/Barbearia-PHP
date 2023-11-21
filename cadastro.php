@@ -86,8 +86,3 @@ include_once 'includes/mensagem.php';
 
 	</div>
 </div>
-
-<?php
-//Footer
-include_once 'includes/footer.php';
-?>

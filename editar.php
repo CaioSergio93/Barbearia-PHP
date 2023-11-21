@@ -13,7 +13,7 @@ if(isset($_GET['id'])):
 endif;
 ?>
 
-<div class="form">
+<div class="form-adc">
 	<div class="input-box">
 		<h3 class="title"> Editar cliente </h3>
 		<form action="php_action/update.php" method="POST">
@@ -38,14 +38,11 @@ endif;
 				<label for="senha" class="label">Senha: </label>
 			</div>
 
+			<div class="botao">
 			<button type="submit" name="btn-editar" class="btn-cadastrar" onclick="adicionar()">Atualizar</button>
 			<a href="index.php" class="btn-lista">Lista de clientes</a>
+			</div>
        
 		</form>
 	</div>
 </div>
-
-<?php
-//Footer
-include_once 'includes/footer.php';
-?>

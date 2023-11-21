@@ -3,7 +3,7 @@
 include_once 'includes/header.php';
 ?>
 
-<div class="form">
+<div class="form-adc">
 	<div class="input-box">
 		<h3 class="title"> Novo cliente </h3>
 		<form action="php_action/create.php" method="POST">
@@ -27,14 +27,11 @@ include_once 'includes/header.php';
 				<label for="senha" class="label">Senha: </label>
 			</div>
 
+			<div class="botao">
 			<button type="submit" name="btn-cadastrar" class="btn-cadastrar" onclick="adicionar()">Cadrastar</button>
 			<a href="cadastro.php" class="btn-lista">Lista de clientes</a>
+			</div>
 
 		</form>
 	</div>
 </div>
-
-<?php
-//Footer
-include_once 'includes/footer.php';
-?>
