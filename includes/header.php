@@ -16,6 +16,7 @@
   <link rel="stylesheet" type="text/css" href="css/footer1.css">
   <link rel="stylesheet" type="text/css" href="css/agendamento.css">
   <link rel="stylesheet" type="text/css" href="css/editar.css">
+  <link rel="stylesheet" type="text/css" href="css/model.css">
 
 </head>
 

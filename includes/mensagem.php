@@ -1,28 +1,10 @@
 <?php
+// Sessão
 session_start();
-if(isset($_SESSION['mensagem']) && $_SESSION['mensagem'] === 'deletar'): ?>
-<script>	
-	document.addEventListener("DOMContentLoaded", function() {
-		function deletar(){
-			let modal = document.querySelector('.modal-container');
-			modal.style.display = 'block';
+if(isset($_SESSION['mensagem'])): ?>
 
-			const divMessage = document.querySelector(".alert");
-			const msg = "Deletar Cliente cancelado";
-
-			const message = document.createElement("div");
-			message.classList.add("message");
-			message.innerText = msg;
-			divMessage.appendChild(message);
-			setTimeout(() => {
-				message.style.display = "none" ; 
-			}, 3000); 
-		}
-
-		deletar();
-	});
 <?php
-session_unset();
 endif;
+session_unset();
+
 ?>
-</script>

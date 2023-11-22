@@ -19,9 +19,6 @@
 
     
 </footer>
-
-
-
 <script type="text/javascript">
 
         function deletar(){
@@ -61,3 +58,5 @@
         }
 
     </script>
+    </body>
+  </html>

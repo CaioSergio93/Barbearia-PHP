@@ -203,6 +203,7 @@ tbody > tr:nth-child(2n){
 
     animation: animate;
     animation-duration: 800ms;
+    display: none;
 }
 
 @keyframes animate{

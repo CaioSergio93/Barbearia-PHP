@@ -21,7 +21,6 @@ table.compact-table tr:nth-child(2n) {
     background-color: #fff;
 }
 
-/* Estilos adicionais para a tabela */
 .table-actions {
     display: flex;
     align-items: center;
